@@ -1,0 +1,29 @@
+server:
+  tomcat:
+    max-swallow-size: 50MB
+    max-http-form-post-size: 50MB
+  port: 8080
+spring:
+  application:
+    name: jpa-b1
+  datasource:
+    url: jdbc:mysql://sql6.freesqldatabase.com:3306/sql6706494
+    username: sql6706494
+    password: 7JhCBPst9B
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt: 3331QGQ7lwcpqMeuVGSCjPkwkMKk/92td+suEztit4FWXPXwLjjxmnHY0Knj796r
+
+
+
+
+
+    
